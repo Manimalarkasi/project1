@@ -13,6 +13,7 @@ const initialvalues= {
   password:'',
   cpassword:'',
   phoneno:'',
+  
 }
 
 const onSubmit=(values,onSubmitProps) =>{
