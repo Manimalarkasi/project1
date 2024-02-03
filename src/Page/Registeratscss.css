@@ -1,0 +1,31 @@
+.container-full{
+    /* max-width: 978px; */
+    /* width: 100vw; */
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    /* border: 3px solid blueviolet; */
+    border-radius: 5px;
+    background-color: white;
+}
+h2{
+    text-align: center;
+    color: #047bf1d5;
+    font-weight: 900;
+}
+.paper-regi{
+    width: 500px;
+    /* height: 970px; */
+    padding: 20px;
+}
+
+.reg-part2{
+
+    /* background-size: cover; */
+    /* background-color: aquamarine; */
+}
+.img{
+    height: 1000px;
+    /* background-size: cover; */
+}

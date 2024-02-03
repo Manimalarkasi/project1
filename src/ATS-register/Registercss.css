@@ -8,8 +8,10 @@
 .container{
     background-color: blue;
     margin: 50px;
+    /* height: 1000px; */
     background-image: url('C:\Users\SightSpectrum\Pictures\Saved Pictures/4.jpg');
-    /* background-size: cover; */
-    background-position: 0px;
+    background-size:contain;
+    background-position-y: center;
+    /* background-position: 0px; */
     background-repeat: no-repeat;
 }

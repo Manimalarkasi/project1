@@ -1,0 +1,35 @@
+.container-full{
+    /* max-width: 978px; */
+    /* width: 100vw; */
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px red;
+    background-color: aqua;
+}
+.paper-reg{
+    width: 500px;
+    /* height: 100vh; */
+    border: 5px solid blue;
+    /* margin: 50px; */
+    padding: 20px;
+}
+/* .container{
+    background-color: blue;
+    margin: 50px; */
+    /* background-image: url('C:\Users\SightSpectrum\Pictures\Saved Pictures/4.jpg'); */
+    /* background-size: cover; */
+    /* background-position: 0px;
+    background-repeat: no-repeat;
+} */
+.reg-part2{
+
+    /* background-size: cover; */
+    /* background-color: aquamarine; */
+}
+.img{
+    height: 930px;
+}

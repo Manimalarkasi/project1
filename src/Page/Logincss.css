@@ -1,0 +1,28 @@
+.conailer-log{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    height: 500px;
+    gap: 5px;
+    /* background-color: aqua; */
+}
+
+.paper-log{
+    width: 500px;
+    height: 685px;
+    margin: 0px;
+}
+.full{
+    /* margin: 20px 0px; */
+    padding-top: 40px;
+}
+.log1{
+    height: 500px;
+}
+.link{
+    cursor: pointer;
+    text-decoration: none;
+    float: right;
+    margin-right: 10px;
+    padding-right: 40px;
+}
