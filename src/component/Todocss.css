@@ -1,0 +1,59 @@
+*{
+    /* background-color:burlywood; */
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    /* margin: 30px; */
+}
+.todowarapper{
+    background-color: blueviolet;
+    margin: 70px ;
+    padding: 50px 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+.todofrom{
+    /* background-color: blue; */
+    /* padding: 10px; */
+    margin: 30px;
+}
+.todoinput{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px ;
+    width: 500px;
+    color: aliceblue;
+    border: 3px solid violet;
+    background-color:blue;
+    outline:none;
+}
+.todobut{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: aqua;
+    border-radius: 10px ;
+    border: 3px solid violet;
+    background-color: violet;
+    outline:none;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+    padding: 10px 90px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px ;
+    height: 40px;
+    gap: 260px;
+    color: aliceblue;
+    border: 3px solid violet;
+    background-color:blue;
+}

@@ -1,23 +1,21 @@
 .conailer-log{
     display: flex;
-    margin: 20px;
-    padding: 10px;
-    height: 500px;
-    gap: 5px;
-    /* background-color: aqua; */
+    /* padding: 10px; */
+    /* gap: 5px; */
 }
 
 .paper-log{
     width: 500px;
     height: 685px;
-    margin: 0px;
+    margin: 20px; 
 }
 .full{
-    /* margin: 20px 0px; */
-    padding-top: 40px;
+   
 }
 .log1{
-    height: 500px;
+    
+}
+.log2{
 }
 .link{
     cursor: pointer;

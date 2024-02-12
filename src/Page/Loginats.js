@@ -58,17 +58,18 @@ function Loginats() {
                 console.log("form values",formik);
                 return(
                     <Form>
-           <Field as={TextField} type='email' name='email' label='email' placeholder='enter your email' style={{padding:'10px',width:'400px',marginLeft:'40px'}} autoFocus
+           <Field as={TextField} type='email' name='email' label='email' placeholder='enter your email' style={{padding:'10px',margin:'10px 90px'}} autoFocus
            InputProps={{
             endAdornment:<InputAdornment position='end'><Face6Icon /></InputAdornment>
         }} /><br />
            <ErrorMessage name='email'>
             {error =><div style={{color:'red',paddingLeft:'50px'}}>{error}</div>}
            </ErrorMessage>
-            <Field as={TextField} type='password' name='password' label='password' placeholder='enter your password' style={{padding:'10px',width:'400px',marginLeft:'40px'}} 
+            <Field as={TextField} type='password' name='password' label='password' placeholder='enter your password' style={{padding:'10px',margin:'10px 90px'}} 
             InputProps={{
               endAdornment:<InputAdornment position='end'><VisibilityOutlinedIcon /></InputAdornment>
           }} /><br />
+          
             <ErrorMessage name='password'>
             {error =><div style={{color:'red',paddingLeft:'50px'}}>{error}</div>}
            </ErrorMessage>
@@ -83,7 +84,6 @@ function Loginats() {
             </Form>
                 )
             }}
-            
            </Formik>
            </div>
            </Paper>

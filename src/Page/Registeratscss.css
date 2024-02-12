@@ -1,13 +1,8 @@
 .container-full{
-    /* max-width: 978px; */
-    /* width: 100vw; */
-    margin: 20px;
-    padding: 10px;
     display: flex;
-    gap: 5px;
-    /* border: 3px solid blueviolet; */
     border-radius: 5px;
     background-color: white;
+    /* margin   : 10px; */
 }
 h2{
     text-align: center;
@@ -16,16 +11,11 @@ h2{
 }
 .paper-regi{
     width: 500px;
-    /* height: 970px; */
-    padding: 20px;
-}
-
-.reg-part2{
-
-    /* background-size: cover; */
-    /* background-color: aquamarine; */
+    /* padding: 20px; */
 }
 .img{
-    height: 1000px;
-    /* background-size: cover; */
+    height: 700px;
+}
+p{
+    float: left;
 }

@@ -100,12 +100,12 @@ function Register() {
                {errormsg => <div style={{color:'red'}}>{errormsg}</div> }
                </ErrorMessage>
               Password:
-              <Field as={TextField} label='password' name='password' type='password' variant='outlined' style={{margin:'10px',padding:'5px',width:300}} />
+              <Field as={TextField} label='password' name='password' type='password' variant='outlined' style={{margin:'10px',padding:'5px',width:300}}/>
               <ErrorMessage name='password'>
                {errormsg => <div style={{color:'red'}}>{errormsg}</div> }
                </ErrorMessage>
               Confirm-password:
-              <Field as={TextField}  label='c-password'  name='cpassword' type='password' variant='outlined' style={{margin:'10px',padding:'5px',width:300}}  />
+              <Field as={TextField}  label='c-password'  name='cpassword' type='password' variant='outlined' style={{margin:'10px',padding:'5px',width:300}} />
               <ErrorMessage name='cpassword'>
                {errormsg => <div style={{color:'red'}}>{errormsg}</div> }
                </ErrorMessage>
@@ -124,9 +124,7 @@ function Register() {
         </Paper>
       </Grid>
       </div>
-
-
-
+      
       <div className='reg-part2'>
           <img alt='picachu' src='image/4.jpg' className='img' width={800}  />
       </div>

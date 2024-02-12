@@ -92,7 +92,7 @@ function Registerats() {
       </div>
       <div className='reg-part1'>
       <Grid >
-        <Paper elevation={2} className='paper-regi'>
+        <Paper elevation={1} className='paper-regi'>
            <Grid alignContent={'center'}>
             
               <Avatar alt='ben' src='image/atslogo.jpg' style={{ width:60,height:50,marginLeft:210,padding:10}} />
@@ -104,14 +104,14 @@ function Registerats() {
               // console.log('form data:', formik);
               return(
                 <Form>
-                <Stack spacing={1} direction={'column'}>
-               Employee ID:
-              <Field as={TextField}  label='emp id' name='empid' type='text' variant='outlined' style={{margin:'10px',padding:'0px',width:300}} autoFocus/>
+                <Stack spacing={1}  direction={'column'}>
+               
+              <Field as={TextField}  label='Employee ID' name='empid' type='text' variant='outlined' size='small' style={{}} autoFocus/>
               <ErrorMessage name='empid'>
                {errormsg => <span style={{color:'red'}}>{errormsg}</span> }
                </ErrorMessage>
-              Name:
-              <Field as={TextField} label='name'  name='name' type='text' variant='outlined' style={{margin:'10px',padding:'0px',width:300}} 
+              
+              <Field as={TextField} label='Name:'  name='name' type='text' variant='outlined' size='small' 
               // onChange={(e)=>
               //   setInput({...initialvalues,
               //   [e.target.empid]:e.target.value,})} 
@@ -119,23 +119,23 @@ function Registerats() {
               <ErrorMessage name='name'>
                {errormsg => <div style={{color:'red'}}>{errormsg}</div> }
                </ErrorMessage>
-              E-Mail:
-              <Field as={TextField} label='email'  name='email'  type='email' variant='outlined' style={{margin:'10px',padding:'0px',width:300}} />
+              
+              <Field as={TextField} label='E-Mail:'  name='email'  type='email' variant='outlined' size='small'  />
               <ErrorMessage name='email'>
                {errormsg => <div style={{color:'red'}}>{errormsg}</div> }
                </ErrorMessage>
-              Password:
-              <Field as={TextField} label='password' name='password'  type='password' variant='outlined' style={{margin:'10px',padding:'0px',width:300}} />
+              
+              <Field as={TextField} label='Password:' name='password'  type='password' variant='outlined' size='small'  />
               <ErrorMessage name='password'>
                {errormsg => <div style={{color:'red'}}>{errormsg}</div> }
                </ErrorMessage>
-              Confirm-password:
-              <Field as={TextField}  label='c-password'  name='cpassword' type='password' variant='outlined' style={{margin:'10px',padding:'0px',width:300}}  />
+             
+              <Field as={TextField}  label='Confirm-password:'  name='cpassword' type='password' variant='outlined' size='small'   />
               <ErrorMessage name='cpassword'>
                {errormsg => <div style={{color:'red'}}>{errormsg}</div> }
                </ErrorMessage>
-               Phone Number:
-               <Field as={TextField} label='phoneno'  name='phoneno' type='text' variant='outlined' style={{margin:'10px',padding:'0px',width:300}} />
+               
+               <Field as={TextField} label='Phone Number:'  name='phoneno' type='text' variant='outlined' size='small'  />
                <ErrorMessage name='phoneno'>
                {errormsg => <div style={{color:'red'}}>{errormsg}</div> }
                </ErrorMessage>
@@ -153,10 +153,6 @@ function Registerats() {
         </Paper>
       </Grid>
       </div>
-
-
-
-      
       </div>
     </section>
   )
