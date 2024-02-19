@@ -10,10 +10,10 @@ import Pagecall from './Page/PageCall';
 function App() {
   return (
     <div className="App">
-      {/* <TodoWrapper   /> */}
+      <TodoWrapper   />
       {/* <Wheatherapp /> */}
    {/* <Pagecall /> */}
-      <Registercall />
+      {/* <Registercall /> */}
       {/* <RegisterAts /> */}
      
     </div>

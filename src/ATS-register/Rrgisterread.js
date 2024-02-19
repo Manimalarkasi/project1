@@ -12,14 +12,14 @@ function Rrgisterread() {
 const get = async()=>{
   const resp = await axios.get(API_URL)
   setGetapi(resp.data)
-  // .then((resp)=>{
-  //     console.log(resp);
-  //     console.log(resp.data);
-  //     setGetapi(resp.data) 
-  // })
-  // .catch((error)=>{
-  //   console.error('error will be occur', error);
-  // })
+  .then((resp)=>{
+      console.log(resp);
+      console.log(resp.data);
+      setGetapi(resp.data) 
+  })
+  .catch((error)=>{
+    console.error('error will be occur', error);
+  })
 }
   useEffect(()=>{
     get()
@@ -28,6 +28,7 @@ const get = async()=>{
   const updateuser =({id,empid,name,email,password,cpassword})=>{
     localStorage.setItem('id',id)
     localStorage.setItem('empid',empid)
+    localStorage.setItem('email',email)
     localStorage.setItem('name',name)
     localStorage.setItem('password',password)
     localStorage.setItem('cpassword',cpassword)
